@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title style="font-weight: bold">Organisation Details</title>
+    <link rel="stylesheet" type="text/css" href="decoration.css" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="header">Organisation Details</div>
+      <div id="main">
+        <br />
+        <form action="organisationdetails.php" method="post">
+          <div id="contentbx">
+            <p>
+              <label>Name: </label><input type="text" size="90" name="Name" />
+            </p>
+            <section>
+              <div>
+                <p>
+                  <label>Contact No : </label>
+                  <input name="Contact_No" />
+                </p>
+                <p><label>Email: </label><input type="text" name="Email" /></p>
+                <p>
+                  <label>Fax No : </label><input name="Fax_No" />
+                </p>
+                <p>
+                  <label>Pan No : </label><input type="Text" name="PAN_No" />
+                </p>
+              </div>
+              <div class="inbx">
+                <p>
+                  <label>Address: </label> <input type="text" name="Address" />
+                </p>
+                <p>
+                  <label> Web Address: </label>
+                  <input type="text" name="Web_Address" />
+                </p>
+                <p>
+                  <label>GSTin No : </label
+                  ><input name="GSTin_No" />
+                </p>
+                <p>
+                  <label>Start Date: </label>
+                  <input type="date" name="Start_Date" />
+                </p>
+              </div>
+            </section>
+          <p>
+            <button type="reset">Reset</button>
+            <button type="submit" name="Save">Save</button>
+          </p>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

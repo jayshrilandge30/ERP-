@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title style="font-weight: bold">Stock Details</title>
+    <link rel="stylesheet" type="text/css" href="decoration.css" />
+  </head>
+  <body bgcolor="gainsboro">
+    <div id="wrapper">
+      <div id="header">Stock Details</div>
+      <div id="main">
+        <br />
+        <form action="stockdetails.php" method="post">
+          <div id="contentbx">
+            <p>
+              <label>Item Name: </label><input type="text" name="Item_Name" />
+            </p>
+            <p>
+              <label>Group: </label>
+              <input name="Group_Name" />
+            </p>
+            <p>
+              <label>Category: </label><input type="text" name="Category" />
+            </p>
+            <p>
+              <label>Quantity: </label><input type="text" name="Quantity" />
+            </p>
+          </div>
+          <p>
+            <button type="reset">Reset</button>
+            <button type="submit" name="Save">Save</button>
+          </p>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

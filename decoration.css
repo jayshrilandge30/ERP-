@@ -1,0 +1,68 @@
+body {
+  background-image: url("./images/image3.jpg");
+  width: 95;
+  height: 90vh;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+#wrapper {
+  min-height: 100%;
+  margin-top: 70px;
+  margin-left: 270px;
+  margin-right: 270px;
+  margin-bottom: 60px;
+}
+
+#header {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+  text-align: center;
+  line-height: 80px;
+  font-size: 50px;
+  color: white;
+  letter-spacing: 0.3rem;
+}
+
+#main {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+  color: white;
+  line-height: 5px;
+  margin-bottom: 20px;
+  font-size: large;
+}
+
+#contentbx {
+  outline: 1px solid black;
+  outline-offset: -15px;
+  padding: 50px;
+}
+
+section {
+  position: relative;
+  display: flex;
+}
+
+section .inbx {
+  padding-left: 130px;
+}
+
+label {
+  width: 150px;
+  display: inline-block;
+}
+
+button {
+  background-color: rgba(220, 93, 20, 0.871);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 100px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border-radius: 16px;
+}
